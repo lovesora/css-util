@@ -1,0 +1,14 @@
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+.break-all {
+    word-break: break-all;
+}
