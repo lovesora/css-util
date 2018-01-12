@@ -1,23 +1,21 @@
-.ios-clear {
-    input,
-    select,
-    button {
-        -webkit-appearance: none;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-}
-
+// 单行显示文本，超出部分使用...显示
 .ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.required::after {
-    content: '*';
-    color: red;
-}
-
+// 强制英文单词断词换行
 .break-all {
     word-break: break-all;
 }
+
+// 禁止选择文本
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+

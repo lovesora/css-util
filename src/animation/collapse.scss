@@ -1,0 +1,13 @@
+@import '../variable/timing';
+
+// 展开、收缩动画
+.panel {
+    overflow: hidden;
+    max-height: 1000px;
+
+    transition: max-height $animation-timing;
+}
+.panel--collapsed {
+    max-height: 0;
+}
+

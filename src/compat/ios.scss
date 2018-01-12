@@ -1,0 +1,10 @@
+// 清除ios为表单自定义的样式
+.ios-clear {
+    input,
+    select,
+    button {
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+}
+

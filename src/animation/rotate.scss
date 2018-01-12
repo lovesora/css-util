@@ -9,7 +9,9 @@
     }
 }
 
+
 .rotate {
+    // 匀速旋转
     &-infinite {
         animation: rotate-360 $animation-timing linear infinite;
     }

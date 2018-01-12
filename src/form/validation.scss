@@ -1,0 +1,6 @@
+// 必填项
+.required::after {
+    content: '*';
+    color: red;
+}
+
